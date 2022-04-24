@@ -1,0 +1,66 @@
+.carousel-wrapper {
+  display: flex;
+  margin-right: 10px;
+  width: 600px;
+}
+
+.infos {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.div-project {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 760px;
+}
+
+.list > li {
+  list-style: none;
+}
+
+.habilidades {
+  background: rgba( 81, 74, 157, 0.0 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.17 );
+  backdrop-filter: blur( 0px );
+  -webkit-backdrop-filter: blur( 0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.list {
+  text-align: start;
+}
+
+.react {
+  background-color: white;
+  width: 360px;
+  border-radius: 5px 5px 15px;
+}
+.js {
+  background-color: white;
+  width: 500px;
+  border-radius: 5px 5px 15px;
+}
+
+.jest {
+  background-color: white;
+  width: 375px;
+  border-radius: 5px 5px 15px;
+}
+.bootstrap {
+  background-color: white;
+  width: 450px;
+  border-radius: 5px 5px 15px;
+}
+.redux {
+  background-color: white;
+  width: 340px;
+  border-radius: 5px 5px 15px;
+}
+.hooks {
+  background-color: white;
+  width: 300px;
+  border-radius: 5px 5px 15px;
+}

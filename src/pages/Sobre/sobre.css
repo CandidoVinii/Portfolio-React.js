@@ -1,0 +1,48 @@
+.princ-div {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.span-div {
+  width: 600px;
+  background: rgba( 36, 198, 220, 0.0 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.17 );
+  backdrop-filter: blur( 0px );
+  -webkit-backdrop-filter: blur( 0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.span-div > span {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.img-div {
+  background: rgba( 81, 74, 157, 0.0 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.17 );
+  backdrop-filter: blur( 0px );
+  -webkit-backdrop-filter: blur( 0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.img-div > img {
+  height: 200px;
+}
+
+.contact {
+  margin-left: 580px;
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  letter-spacing: 0.2rem;
+}
+
+.contact > a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+}
