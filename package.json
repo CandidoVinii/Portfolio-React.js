@@ -1,5 +1,6 @@
 {
   "name": "portfolio-react",
+  "homepage": "https://CandidoVinii.github.io/Portfolio.js",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +19,6 @@
     "web-vitals": "^2.1.4"
   },
 
-  "homepage": "https://CandidoVinii.github.io/Portfolio-react.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
