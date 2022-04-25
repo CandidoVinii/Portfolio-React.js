@@ -1,0 +1,14 @@
+.footer-div {
+  margin-top: 200px;
+  height: 50px;
+  font-size: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}

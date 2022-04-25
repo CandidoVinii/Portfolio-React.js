@@ -14,22 +14,23 @@ export default function CarouselComponent(){
     dynamicHeight
     infiniteLoop
     useKeyboardArrows
-    autoPlay>
-        <div>
-            <img src={pokedex} alt="projeto pokemon" />
-        </div>
-        <div>
-            <img src={weather} alt="projeto trybetunes" />
-        </div>
-        <div>
-            <img src={trybetunes} alt="projeto trybetunes" />
-        </div>
-        <div>
-            <img src={bmi} alt="projeto trybetunes" />
-        </div>
-        <div>
-            <img src={solar} alt="projeto trybetunes" />
-        </div>
+    autoPlay
+    >
+      <div>
+          <img src={pokedex} alt="projeto pokemon" />
+      </div>
+      <div>
+          <img src={weather} alt="projeto trybetunes" />
+      </div>
+      <div>
+          <img src={trybetunes} alt="projeto trybetunes" />
+      </div>
+      <div>
+          <img src={bmi} alt="projeto trybetunes" />
+      </div>
+      <div>
+          <img src={solar} alt="projeto trybetunes" />
+      </div>
     </Carousel>
 </div>
   );

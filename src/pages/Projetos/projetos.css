@@ -2,6 +2,7 @@
   display: flex;
   margin-right: 10px;
   width: 600px;
+  height: 400px;
 }
 
 .infos {
@@ -21,12 +22,21 @@
 }
 
 .habilidades {
+  width: 600px;
   background: rgba( 81, 74, 157, 0.0 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.17 );
   backdrop-filter: blur( 0px );
   -webkit-backdrop-filter: blur( 0px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.habilidades:hover{
+  box-shadow:
+    1px 1px #53a7ea,
+    2px 2px #53a7ea,
+    3px 3px #53a7ea;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
 }
 
 .list {
@@ -63,4 +73,20 @@
   background-color: white;
   width: 300px;
   border-radius: 5px 5px 15px;
+}
+
+.easterEgg {
+  width: fit-content;
+  margin-top: -250px;
+  margin-left: 1235px;
+  transform: rotate(270deg)
+}
+
+.easterEgg > p {
+  font-size: 0;
+}
+
+.easterEgg > a {
+  text-decoration: none;
+  color: black;
 }

@@ -10,9 +10,9 @@ class Header extends Component {
         <div className="div-header">
           <img src={ logo } alt="logo-site" />
             <ul className="ul-nav">
-              <li><Link style={{ textDecoration: 'none' }} exact to="/">Inicio</Link></li>
-              <li><Link style={{ textDecoration: 'none' }} exact to="/sobre">Sobre</Link></li>
-              <li><Link style={{ textDecoration: 'none' }} exact to="/projetos">Projetos</Link></li>
+              <li><Link style={{ textDecoration: 'none', color: 'white' }} exact to="/">Inicio</Link></li>
+              <li><Link style={{ textDecoration: 'none', color: 'white' }} exact to="/sobre">Sobre</Link></li>
+              <li><Link style={{ textDecoration: 'none', color: 'white' }} exact to="/projetos">Projetos</Link></li>
             </ul>
         </div>
       </header>
