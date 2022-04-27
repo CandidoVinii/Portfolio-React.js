@@ -113,3 +113,28 @@
   background: #fcaf45;
   color: #fff;
 }
+
+
+@media only screen and (max-device-width: 1366px) {
+  .contact { margin-left: 630px;}
+}
+
+@media only screen and (max-device-width: 2560px) {
+  .contact { margin-left: 1550px;}
+}
+
+@media only screen and (max-device-width: 1440px) {
+  .contact { margin-left: 700px;}
+}
+
+@media only screen and (max-device-width: 1024px) {
+  body { width: 100%;}
+  .contact { margin-left: 200px;}
+  .princ-div { 
+    height: 768px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid red;
+  }
+}

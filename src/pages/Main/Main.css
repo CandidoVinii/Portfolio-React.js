@@ -83,3 +83,7 @@ body{
   font-size: 18px;
   letter-spacing: 0.1rem;
 }
+
+@media only screen and (max-device-width: 900px) {
+  /* .menu { width:100%; } */
+  }
