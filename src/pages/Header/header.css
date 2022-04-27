@@ -32,3 +32,16 @@
   background: rgba( 0, 0, 0, 0.15 );
   font-weight: bold;
 }
+
+@media only screen and (max-device-width: 425px) {
+  body { width: 100%;}
+  .div-header > img {
+    width: 75px;
+    height: 75px;
+  }
+  .ul-nav > li {
+    padding: 5px 15px;
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+}

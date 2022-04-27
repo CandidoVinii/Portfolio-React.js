@@ -84,6 +84,21 @@ body{
   letter-spacing: 0.1rem;
 }
 
-@media only screen and (max-device-width: 900px) {
-  /* .menu { width:100%; } */
+@media only screen and (max-device-width: 1024px) {
+  body { width: 100%;}
+  .main-div { 
+    height: 768px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
+}
+
+@media only screen and (max-device-width: 425px) {
+  body { width: 100%;}
+  .info-div {
+    height: 350px;
+    width: 100%;
+    text-align: center;
+  }
+}
