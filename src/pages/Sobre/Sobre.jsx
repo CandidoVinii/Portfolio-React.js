@@ -1,17 +1,18 @@
 import React, { Component } from "react";
-import Header from "../Header/Header";
-import logo from '../avatar/logo-perfil.png'
-import './sobre.css';
 import { motion } from "framer-motion";
 import { Pause, WindupChildren } from "windups";
+
+import Header from "../Header/Header";
+import logo from '../img/logo-perfil.png'
+import './sobre.css';
 import Footer from "../Footer/Footer";
 
 class Sobre extends Component {
   
   render() {
     const variants = {
-      visible: { opacity: 1 },
-      hidden: { opacity: 0 },
+      visible: { opacity: 1, translateY: 0 },
+      hidden: { opacity: 0, translateY: -150 },
     }
     return(
       <motion.div

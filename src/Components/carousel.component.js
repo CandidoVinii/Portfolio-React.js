@@ -1,11 +1,11 @@
 import React from "react";
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import pokedex from '../pages/avatar/projects/pokedex.png';
-import weather from '../pages/avatar/projects/wheater-project.png';
-import trybetunes from '../pages/avatar/projects/Trybetunes.png';
-import bmi from '../pages/avatar/projects/bmicalculator.png';
-import solar from '../pages/avatar/projects/solar-system.png';
+import pokedex from '../pages/img/projects/pokedex.png';
+import weather from '../pages/img/projects/wheater-project.png';
+import trybetunes from '../pages/img/projects/Trybetunes.png';
+import bmi from '../pages/img/projects/bmicalculator.png';
+import solar from '../pages/img/projects/solar-system.png';
 
 export default function CarouselComponent(){
   return (

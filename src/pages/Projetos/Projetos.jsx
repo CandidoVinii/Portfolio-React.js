@@ -1,16 +1,17 @@
 import React, { Component } from "react";
+import { motion } from "framer-motion";
+import { Pause, WindupChildren } from "windups";
 import CarouselComponent from "../../Components/carousel.component";
+
 import Header from "../Header/Header";
 import './projetos.css';
-import { motion } from "framer-motion";
 import Footer from "../Footer/Footer";
-import { Pause, WindupChildren } from "windups";
 
 class Projetos extends Component {
   render() {
     const variants = {
-      visible: { opacity: 1 },
-      hidden: { opacity: 0 },
+      visible: { opacity: 1, translateY: 0 },
+      hidden: { opacity: 0, translateY: -150 },
     }
     return(
       <motion.div
@@ -39,7 +40,7 @@ class Projetos extends Component {
           <WindupChildren>
             <p>Olá</p>
             <Pause ms={1320} />
-              <a target="_blank" href="https://claudia.abril.com.br/wp-content/uploads/2020/01/gato-tirando-selfie-1.png">Clique</a>
+              <a target="_blank" href="https://claudia.abril.com.br/wp-content/uploads/2020/01/gato-tirando-selfie-1.png" rel="noreferrer">Clique</a>
           </WindupChildren>
         </div>
         <Footer />
