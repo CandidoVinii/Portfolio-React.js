@@ -45,3 +45,15 @@
     margin-left: 0px;
   }
 }
+
+@media screen and (min-width: 375px) and (max-width: 400px) {
+  .ul-nav {
+    margin-top: 80px;
+    display: flex;
+    margin-left: -50px;
+    flex-direction: column;
+  }
+  .ul-nav > li {
+    margin-bottom: 10px;
+  }
+}

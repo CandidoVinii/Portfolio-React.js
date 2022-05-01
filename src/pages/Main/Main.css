@@ -102,3 +102,20 @@ body{
     text-align: center;
   }
 }
+
+@media screen and (min-width: 375px) and (max-width: 400px) {
+  .main-div {
+    display: flex;
+    flex-direction: column;
+    height: 812px;
+  }
+  .img-avatar {
+    width: 350px;
+    height: auto;
+  }
+  .info-div {
+    width: 350px;
+    height: auto;
+    text-align: center;
+  }
+}
