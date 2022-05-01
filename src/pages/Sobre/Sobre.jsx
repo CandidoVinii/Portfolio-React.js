@@ -60,9 +60,9 @@ class Sobre extends Component {
         </div>
       </div>
       <div className="contact">
-          <button className="btn-git" ><a target="_blank" href="https://github.com/CandidoVinii">Github</a></button>
-          <button className="btn-linkedin"><a target="_blank" href="https://www.linkedin.com/in/vinicius-candido-749262110/">Linkedin</a></button>
-          <button className="btn-instagram"><a target="_blank" href="https://www.instagram.com/candido.vinii/">Instagram</a></button>
+          <button className="btn-git" ><a target="_blank" href="https://github.com/CandidoVinii" rel="noreferrer">Github</a></button>
+          <button className="btn-linkedin"><a target="_blank" href="https://www.linkedin.com/in/vinicius-candido-749262110/" rel="noreferrer">Linkedin</a></button>
+          <button className="btn-instagram"><a target="_blank" href="https://www.instagram.com/candido.vinii/" rel="noreferrer">Instagram</a></button>
       </div>
       <Footer/>
     </motion.div>
