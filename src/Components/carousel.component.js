@@ -6,6 +6,7 @@ import weather from '../pages/img/projects/wheater-project.png';
 import trybetunes from '../pages/img/projects/Trybetunes.png';
 import bmi from '../pages/img/projects/bmicalculator.png';
 import solar from '../pages/img/projects/solar-system.png';
+import viniWallet from '../pages/img/projects/viniWallet.png'
 
 export default function CarouselComponent(){
   return (
@@ -18,6 +19,9 @@ export default function CarouselComponent(){
     >
       <div>
           <img src={pokedex} alt="projeto pokemon" />
+      </div>
+      <div>
+          <img src={viniWallet} alt="projeto trybeWallet" />
       </div>
       <div>
           <img src={weather} alt="projeto trybetunes" />

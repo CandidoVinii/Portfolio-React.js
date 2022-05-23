@@ -15,14 +15,19 @@ class Projetos extends Component {
     }
     return(
       <motion.div
-      initial="hidden"
-      animate="visible"
-      variants={variants}
+        initial="hidden"
+        animate="visible"
+        variants={variants}
       >
         <Header />
         <div className="div-project">
           <div className="habilidades">
-            <ul className="list">
+           <motion.div
+            initial="hidden"
+            animate="visible"
+            variants={variants}
+            >
+            <ul className="list"> 
               <h1>Habilidades:</h1>
               <li className="react"><p>React</p></li>
               <li className="js"><p>Javascript</p></li>
@@ -31,6 +36,7 @@ class Projetos extends Component {
               <li className="redux"><p>Redux</p></li>
               <li className="hooks"><p>Hooks</p></li>
             </ul>
+            </motion.div>
           </div>
           <div className="infos">
             <CarouselComponent />
@@ -39,7 +45,7 @@ class Projetos extends Component {
         <div className="easterEgg">
           <WindupChildren>
             <p>Olá</p>
-            <Pause ms={1320} />
+            <Pause ms={3320} />
               <a target="_blank" href="https://claudia.abril.com.br/wp-content/uploads/2020/01/gato-tirando-selfie-1.png" rel="noreferrer">Clique</a>
           </WindupChildren>
         </div>
